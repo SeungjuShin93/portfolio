@@ -19,7 +19,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/c825c6fdac.js" crossorigin="anonymous"></script>
   <!-- CSS -->
@@ -57,50 +57,62 @@
       <a class="home__contact" href="#contact">Contact Me</a>
     </section>
     <!-- About -->
-    <section id="about" class="section">
+    <section id="about" class="section max-container">
       <h2 class="title">About me</h2>
       <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore iure iusto aliquid
         pariatur, beatae,
         asperiores necessitatibus aspernatur deserunt reiciendis est minus repellat, ratione numquam fugiat placeat
         rerum sapiente in architecto.</p>
-      <ul>
-        <li>
-          <i class="fa-brands fa-html5"></i>
-          <p>Front-end</p>
+      <ul class="majors">
+        <li class="major">
+          <i class="fa-brands fa-html5 major__icon"></i>
+          <p class="major__title">Front-end</p>
           <p>HTML, CSS, JavaScript, TypeScript, React, Vue, Web APIs</p>
         </li>
-        <li>
-          <i class="fa-solid fa-server"></i>
-          <p>Back-end</p>
+        <li class="major">
+          <i class="fa-solid fa-server major__icon"></i>
+          <p class="major__title">Back-end</p>
           <p>JavaScript, NodeJS, MongoDB, Rest APIs </p>
         </li>
       </ul>
-      <ul>
-        <li>
-          <img src="https://sso.sjcu.ac.kr/img/icon/snslog.jpg" alt="logo" style="width: 40px;">
-          <p>Bachelor of Computer Software 8/2022</p>
-          <a href="https://home.sjcu.ac.kr">Sejong Cyber ​​University</a>
-        </li>
-        <li>
-          <img src="https://codingapple.com/wp-content/uploads/avatars/1/601615cacecfe-bpthumb.png" alt="logo"
-            style="width: 40px;">
+      <ul class="jobs">
+        <li class="job">
+          <a href="https://home.sjcu.ac.kr" target="_blank">
+            <img class="job__logo" src="https://sso.sjcu.ac.kr/img/icon/snslog.jpg" alt="logo">
+          </a>
           <div>
-            <p>Learned HTML, CSS, JavaScript, TypeScript, React, Vue, NodeJS</p>
-            <a href="https://codingapple.com/">Coding Apple</a>
+            <p class="job__description">Bachelor of Computer Software 8/2022</p>
+            <a class="job__name" href="https://home.sjcu.ac.kr">Sejong Cyber ​​University</a>
           </div>
         </li>
-        <li>
-          <img src="https://academy.dream-coding.com/logo.svg" alt="logo" style="width: 40px;">
+        <li class="job">
+          <a href="https://codingapple.com/" target="_blank">
+            <img class="job__logo" src="https://codingapple.com/wp-content/uploads/avatars/1/601615cacecfe-bpthumb.png"
+              alt="logo">
+          </a>
           <div>
-            <p>Learned ES6+, Responsive Websites</p>
-            <a href="https://academy.dream-coding.com/">Dream Coding</a>
+            <p class="job__description">Learned HTML, CSS, JavaScript, TypeScript, React, Vue, NodeJS</p>
+            <a class="job__name" href="https://codingapple.com/">Coding Apple</a>
           </div>
         </li>
-        <li>
-          <img src="https://nomadcoders.co/m.svg" alt="logo" style="width: 40px;">
+        <li class="job">
+          <a href="https://codingapple.com/" target="_blank">
+            <img class="job__logo" src="https://academy.dream-coding.com/logo.svg" alt="logo">
+
+          </a>
           <div>
-            <p>Learned how to make a website while cloning websites</p>
-            <a href="https://nomadcoders.co/">Nomadcoder</a>
+            <p class="job__description">Learned ES6+, Responsive Websites</p>
+            <a class="job__name" href="https://academy.dream-coding.com/">Dream Coding</a>
+          </div>
+        </li>
+        <li class="job">
+          <a href="https://codingapple.com/" target="_blank">
+            <img class="job__logo" src="https://nomadcoders.co/m.svg" alt="logo">
+
+          </a>
+          <div>
+            <p class="job__description">Learned how to make a website while cloning websites</p>
+            <a class="job__name" href="https://nomadcoders.co/">Nomadcoder</a>
           </div>
         </li>
       </ul>

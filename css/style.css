@@ -1,5 +1,6 @@
 @import url('header.css');
 @import url('home.css');
+@import url('about.css');
 /* Global */
 :root {
   /* App Colors */
@@ -15,13 +16,19 @@
   --color-blue: #03e8f9;
   --color-orange: #fd6413;
   --color-gray: #1b1e26;
+
+  /* Size */
+  --size-max-width: 1200px;
 }
 
 * {
   box-sizing: border-box;
 }
+html {
+  font-size: 18px;
+}
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Comfortaa', cursive;
   margin: 0;
 }
 h1,
@@ -45,6 +52,10 @@ a {
   padding: 4rem;
   text-align: center;
 }
+.max-container {
+  max-width: var(--size-max-width);
+  margin: auto;
+}
 .title {
   font-size: 2.5rem;
   margin: 1rem 0;
@@ -59,3 +70,4 @@ a {
 
 /* MAIN */
 /* home.css */
+/* about.css */
