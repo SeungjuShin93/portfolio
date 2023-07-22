@@ -1,0 +1,21 @@
+/* Skills */
+#skills {
+  background-color: var(--color-primary-variant);
+  color: var(--color-text);
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+.skills__coding {
+  padding: 1.5rem;
+}
+.skills__icon {
+  font-size: 5rem;
+}
+.skills__icon__description {
+  font-size: 1rem;
+  padding: 1rem 0;
+}

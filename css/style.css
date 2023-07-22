@@ -1,6 +1,7 @@
 @import url('header.css');
 @import url('home.css');
 @import url('about.css');
+@import url('skills.css');
 /* Global */
 :root {
   /* App Colors */
@@ -58,7 +59,7 @@ a {
 }
 .title {
   font-size: 2.5rem;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 .description {
   font-size: 1.5rem;
@@ -71,3 +72,4 @@ a {
 /* MAIN */
 /* home.css */
 /* about.css */
+/* skills.css */
