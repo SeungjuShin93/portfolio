@@ -14,7 +14,7 @@
 .header__logo {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .header__logo__img {
@@ -25,14 +25,13 @@
 .header__logo__title {
   font-size: 1.8rem;
 }
-
 .header__menu {
   display: flex;
-  gap: 4px;
+  gap: 0.25rem;
 }
 
 .header__menu__item {
-  padding: 8px 16px;
+  padding: 0.5em 1em;
 }
 
 .header__menu__item:hover {
