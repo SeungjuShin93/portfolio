@@ -4,6 +4,9 @@
 @import url('skills.css');
 @import url('projects.css');
 @import url('testimonials.css');
+@import url('resume.css');
+@import url('contact.css');
+@import url('arrow-up.css');
 /* Global */
 :root {
   /* App Colors */
@@ -85,3 +88,8 @@ a {
 /* skills.css */
 /* projects.css */
 /* testimonials.css */
+/* resume.css */
+/* arrow-up.css */
+
+/* FOOTER */
+/* contact.css */
