@@ -3,6 +3,7 @@
 @import url('about.css');
 @import url('skills.css');
 @import url('projects.css');
+@import url('testimonials.css');
 /* Global */
 :root {
   /* App Colors */
@@ -83,3 +84,4 @@ a {
 /* about.css */
 /* skills.css */
 /* projects.css */
+/* testimonials.css */
