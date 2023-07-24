@@ -27,14 +27,8 @@
   font-size: 1.3rem;
 }
 
-.home__contact {
-  display: inline-block;
-  background-color: var(--color-accent);
-  color: var(--color-primary);
+.button.home__contact {
   margin: 2rem;
-  padding: 0.5rem 1rem;
-  font-weight: bold;
-  border-radius: 4px;
 }
 
 .home__contact:hover {
