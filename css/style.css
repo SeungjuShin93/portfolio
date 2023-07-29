@@ -154,19 +154,27 @@ a {
     font-size: 15px;
   } /* Common */
   .section {
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
   }
   /* HEADER*/
   /* header.css */
   .header {
     flex-direction: column;
     align-items: start;
+    background-color: var(--color-primary);
+  }
+  .header__toggle {
+    display: block;
   }
   .header__menu {
+    display: none;
     flex-direction: column;
     text-align: center;
-    padding: 1rem 4rem;
+    margin: 1rem 4rem;
     gap: 1rem;
+  }
+  .header__menu.open {
+    display: flex;
   }
   .header__nav {
     width: 100%;
@@ -244,7 +252,7 @@ a {
   }
   /* Common */
   .section {
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
   }
   /* MAIN */
   /* Home */

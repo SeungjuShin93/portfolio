@@ -31,13 +31,29 @@
 .header__logo__title {
   font-size: 1.8rem;
 }
+.header__toggle {
+  display: none;
+  color: var(--color-white);
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1.3rem;
+  right: 1rem;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+}
+.header__toggle:focus {
+  outline: 1px solid transparent;
+}
 .header__menu {
   display: flex;
   gap: 0.25rem;
 }
 
 .header__menu__item {
+  display: block;
   padding: 0.5em 1em;
+  border-bottom: 1px solid transparent;
 }
 
 .header__menu__item:hover {
