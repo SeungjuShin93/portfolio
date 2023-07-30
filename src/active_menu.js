@@ -36,13 +36,10 @@ function observerCallback(entries) {
     // console.log(entry.isIntersecting);
     // console.log(entry.intersectionRatio);
   });
-  console.log(visibleSections);
-  console.log(selectLastOne);
 
   const navIndex = selectLastOne
     ? sectionIds.length - 1
     : findFirstIntersecting(visibleSections);
-  console.log(sectionIds[navIndex]);
   selectNavItem(navIndex);
 }
 
