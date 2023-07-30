@@ -1,7 +1,23 @@
 /* Skills */
 #skills {
-  background-color: var(--color-primary-variant);
+  position: relative;
+  background: var(--color-primary-variant) center/cover fixed;
+  background-image: var(--skills-bg-svg);
   color: var(--color-text);
+}
+#skills::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(139% + 1.3px);
+  height: 75px;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  background-color: var(--color-primary);
+  mask: var(--divider-multi-wave);
+  -webkit-mask: var(--divider-multi-wave);
 }
 
 .skills {

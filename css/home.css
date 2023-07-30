@@ -1,22 +1,50 @@
 /* Home */
 #home {
-  background-color: var(--color-primary);
+  position: relative;
+  background: var(--color-primary) center/cover fixed;
+  background-image: var(--home-bg-svg);
   color: var(--color-text);
-  padding: 5rem 1rem;
-  padding-top: 7rem;
   text-align: center;
+  overflow: hidden;
+  padding: 4.6rem 1rem;
+  padding-top: 7rem;
+}
+#home::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% + 1.3px);
+  height: 63px;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  background-color: var(--color-white);
+  mask: var(--divider-single-wave);
+  -webkit-mask: var(--divider-single-wave);
+}
+.home__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.home__text__box {
+  padding-top: 3rem;
 }
 .home__avatar {
-  width: 250px;
-  height: 250px;
+  background-image: var(--home-avatar-svg);
+  position: relative;
+  bottom: -5rem;
+  margin-right: 2rem;
+  width: 36em;
+  height: 36em;
   object-fit: cover;
-  border-radius: 100%;
-  border: 3px solid var(--color-accent);
+  transform: rotate(5deg);
 }
 
 .home__title {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 3.6em;
+  margin-bottom: 1.2em;
 }
 
 .home__title--strong {
@@ -24,11 +52,11 @@
 }
 
 .home__description {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .button.home__contact {
-  margin: 2rem;
+  margin-top: 2rem;
 }
 
 .home__contact:hover {

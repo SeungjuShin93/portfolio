@@ -1,9 +1,24 @@
 /* Contact */
 #contact {
-  background-color: var(--color-primary);
+  position: relative;
+  background: var(--color-primary) center/cover fixed;
+  background-image: var(--contact-bg-svg);
   color: var(--color-text);
 }
-
+#contact::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% + 1.3px);
+  height: 41px;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  background-color: var(--color-white);
+  mask: var(--divider-book);
+  -webkit-mask: var(--divider-book);
+}
 .contact__links {
   display: flex;
   justify-content: center;
