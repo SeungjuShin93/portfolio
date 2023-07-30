@@ -30,6 +30,12 @@
 }
 .skills__icon {
   font-size: 5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.skills__coding:hover .skills__icon {
+  transform: scale(1.1) rotate(5deg);
+  color: var(--color-accent);
 }
 .skills__icon__description {
   font-size: 1rem;
